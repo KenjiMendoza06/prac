@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+:root {
+  --clr-primary: #21295c;
+  --clr-secondary: #e89600;
+  --clr-grey: #f0f0f0;
+  --clr-light: #fff;
+  --clr-dark: #000000;
+  --font: 12px;
+  --font-h1: 40px;
+  --font-h2: 32px;
+  --font-h3: 24px;
+  --font-h4: 20px;
+  --font-h5: 16px;
+  --font-h6: 14px;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Koulen", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App,
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: var(--font-primary);
+  background-color: var(--clr-grey);
+}
+
+h1 {
+  font-size: var(--font-h1);
+  font-family: var(--font-secondary);
+}
+
+h2 {
+  font-size: var(--font-h2);
+  font-family: var(--font-secondary);
+}
+
+h3 {
+  font-size: var(--font-h3);
+  font-family: var(--font-secondary);
+}
+
+h4 {
+  font-size: var(--font-h4);
+  font-family: var(--font-secondary);
+}
+
+h5 {
+  font-size: var(--font-h5);
+  font-family: var(--font-secondary);
+}
